@@ -23,7 +23,7 @@ const AnalogClock = () => {
   
     const secondAngle = (second / 60) * 360;
     const minuteAngle = 180 + (minute / 60) * 360 + (second / 60) * 6;
-    const hourAngle = 165 + ((hour % 12) / 12) * 360 + (minute / 60) * 30;
+    const hourAngle = 180 + ((hour % 12) / 12) * 360 + (minute / 60) * 30;
 
   return (
      <div className="circle">
